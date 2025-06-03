@@ -8,7 +8,7 @@
 	let container: HTMLElement;
 	let width: number;
 	let height: number;
-	let time: number = $state(0);
+
 	const { Engine, Render, Bodies, World, Mouse, MouseConstraint, Composites, Query } = Matter;
 
 	onMount(() => {
